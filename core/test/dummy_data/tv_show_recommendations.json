@@ -1,0 +1,28 @@
+{
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/bKxiLRPVWe2nZXCzt6JPr5HNWYm.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                10759,
+                10765
+            ],
+            "id": 110316,
+            "media_type": "tv",
+            "name": "Alice in Borderland",
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "今際の国のアリス",
+            "overview": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
+            "popularity": 158.448,
+            "poster_path": "/20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg",
+            "first_air_date": "2020-12-10",
+            "vote_average": 8.212,
+            "vote_count": 620
+        }
+    ]
+}
