@@ -50,8 +50,8 @@ import 'package:core/presentation/provider/tv_show_detail_notifier.dart';
 import 'package:core/presentation/provider/tv_show_list_notifier.dart';
 import 'package:core/presentation/provider/tv_show_watchlist_notifier.dart';
 import 'package:core/presentation/provider/watchlist_movie_notifier.dart';
+import 'package:core/utils/ssl_pinning.dart';
 import 'package:get_it/get_it.dart';
-import 'package:http/http.dart' as http;
 import 'package:search/domain/usecases/search_movies.dart';
 import 'package:search/domain/usecases/search_tv_show.dart';
 import 'package:search/presentation/bloc/search_bloc.dart';
@@ -231,5 +231,6 @@ void init() {
   locator.registerLazySingleton<DatabaseHelper>(() => DatabaseHelper());
 
   // EXTERNAL
-  locator.registerLazySingleton(() => http.Client());
+  // locator.registerLazySingleton(() => http.Client());
+  locator.registerLazySingleton(() => HttpSslPinning.client);
 }
