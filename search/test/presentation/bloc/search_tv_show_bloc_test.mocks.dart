@@ -2,6 +2,8 @@
 // in search/test/presentation/bloc/search_tv_show_bloc_test.dart.
 // Do not manually edit this file.
 
+// ignore_for_file: unnecessary_overrides
+
 import 'dart:async' as _i5;
 
 import 'package:core/domain/entities/tv_show.dart' as _i7;

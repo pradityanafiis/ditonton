@@ -2,6 +2,8 @@
 // in search/test/helpers/test_helper.dart.
 // Do not manually edit this file.
 
+// ignore_for_file: unnecessary_overrides
+
 import 'dart:async' as _i4;
 
 import 'package:core/domain/entities/movie.dart' as _i6;
